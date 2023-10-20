@@ -11,7 +11,6 @@ const Login=()=> {
 
   const onLoginSubmitHandler=e=>{
     e.preventDefault()    
-    alert('hello')
     fetch('http://localhost:4000/login',{
       method:"post",
       headers:{
