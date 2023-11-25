@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  frontend:
+    image: anushka2314/ridesharehub:frontend
+    ports:
+      - "80:80"
+  backend:
+    image: anushka2314/ridesharehub:backend.1
+    ports:
+      - "4000:4000"
